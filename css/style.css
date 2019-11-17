@@ -134,10 +134,10 @@ figure {
 }
 
 /* --------- tables ---------- */
-.namari-table tbody td {
+.custom-table tbody td {
     color: #eb3434;
     padding: 5px;
-    text-align: right;
+    text-align: left;
 	border: 0 !important;
 }
 
