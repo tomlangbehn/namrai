@@ -136,7 +136,7 @@ figure {
 /* --------- tables ---------- */
 
 .zui-table {
-    border: solid 10px #DDEEEE;
+       text-align: right;
 
 }
 .zui-table thead th {
@@ -144,7 +144,7 @@ figure {
     border: solid 1px #DDEEEE;
     color: #336B6B;
     padding: 10px;
-    text-align: left;
+    text-align: right;
     text-shadow: 1px 1px 1px #fff;
 }
 .zui-table tbody td {
