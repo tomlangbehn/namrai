@@ -136,8 +136,10 @@ figure {
 /* --------- tables ---------- */
 
 .zui-table {
-       text-align: right
-
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 18px Arial, sans-serif;
 }
 .zui-table thead th {
     background-color: #DDEFEF;
@@ -148,6 +150,7 @@ figure {
     text-shadow: 1px 1px 1px #fff;
 }
 .zui-table tbody td {
+	text-align: right;
     border: solid 1px #DDEEEE;
     color: #333;
     padding: 10px;
