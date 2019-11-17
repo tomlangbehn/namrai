@@ -134,6 +134,9 @@ figure {
 }
 
 /* --------- tables ---------- */
+table {
+    margin: 0;
+}
 
 .zui-table {
     border: solid 1px #DDEEEE;
