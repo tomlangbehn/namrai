@@ -134,7 +134,7 @@ figure {
 }
 
 /* --------- tables ---------- */
-.namari-table tbody {
+.namari-table tbody td {
     padding: 5px;
     text-align: left;
 	vertical-align: top;
