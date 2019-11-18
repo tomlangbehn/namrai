@@ -53,6 +53,23 @@ p {
     line-height: 25px;
 }
 
+.highlight {
+        color: #d2b356;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .row img {
     height: auto;
     max-width: 100%;
@@ -139,10 +156,6 @@ figure {
     text-align: left;
 	vertical-align: top;
 	border: 0 !important;
-}
-
-.me {
-        color: #d2b356;
 }
 
 /* --------- 1.1 Input Elements ---------- */
