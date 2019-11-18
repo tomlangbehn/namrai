@@ -138,8 +138,9 @@ figure {
 }
 
 /* --------- tables ---------- */
-.namari-table tbody td {
 
+.namari-table tbody td {
+	 color: red;
     padding: 5px;
     text-align: left;
 	vertical-align: top;
