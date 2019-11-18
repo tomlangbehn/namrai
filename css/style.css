@@ -139,6 +139,7 @@ figure {
 
 /* --------- tables ---------- */
 .namari-table tbody td {
+	color:#fff;   
     padding: 5px;
     text-align: left;
 	vertical-align: top;
