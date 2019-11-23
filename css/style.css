@@ -394,7 +394,7 @@ section {
 .button {
     font-size: 16px;
     margin: 20px 0;
-    padding: 11px 16px;
+    padding: 5px 8px;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     transition: all .3s linear;
