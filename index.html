@@ -276,6 +276,7 @@
                             <h3>UNIVERSITY CENTRE IN SVALBARD</h3>
                             <h2 class="section-title">Sea ice Ecosystems</h2>
                             <p>A copepod perspective on sea-ice driven changes to the pelagic riskscape. </p>
+
                             <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery data-featherlight-filter="a">
 
                                 <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.1s"><img src="images/gallery-images/gallery-image-1.jpg" alt="Landing Page" /></a>
@@ -284,13 +285,34 @@
 
                             </aside>
 
-                            <p class="section-subtitle"> Short project description
+                            <p class="section-subtitle"> Project description goes here. 
 
                             <span id="dots">...</span>
 
                             <span id="more">
-							More text to come
-							</span></p>
+					 
+							Detailed description
+
+                            <a class="button" onclick="myFunction()" id="myBtn">Read more</a>
+
+                            <!--Read more / read less -->
+                            <script>
+                                function myFunction() {
+                                    var dots = document.getElementById("dots");
+                                    var moreText = document.getElementById("more");
+                                    var btnText = document.getElementById("myBtn");
+
+                                    if (dots.style.display === "none") {
+                                        dots.style.display = "inline";
+                                        btnText.innerHTML = "Read more";
+                                        moreText.style.display = "none";
+                                    } else {
+                                        dots.style.display = "none";
+                                        btnText.innerHTML = "Read less";
+                                        moreText.style.display = "inline";
+                                    }
+                                }
+                            </script>
                         </div>
                     </div>
 
