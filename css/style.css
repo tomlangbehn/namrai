@@ -229,6 +229,11 @@ section {
     padding-bottom: 85px !important;
 }
 
+.grid-container {
+  display: grid;
+  align-content: top;
+  grid-template-columns: auto auto;
+}
 /* Targets all elements */
 
 [class*='col-'] {
@@ -2347,17 +2352,6 @@ blockquote {
 
 }
 
-/*------------------------------------------------------------------------------------------*/
-/* 8. Others
-/*------------------------------------------------------------------------------------------*/
 
-.grid-container {
-  display: grid;
-  align-content: top;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
 
 
