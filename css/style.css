@@ -25,6 +25,8 @@
 - 6.6 Pricing Table
 7. Footer
 
+8. Other things
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
@@ -2340,6 +2342,24 @@ blockquote {
 
 }
 
+/*------------------------------------------------------------------------------------------*/
+/* 8. Others
+/*------------------------------------------------------------------------------------------*/
 
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #f331e6;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 30px;
+}
 
 
