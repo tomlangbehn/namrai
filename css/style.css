@@ -216,6 +216,11 @@ section {
     padding-top: 0;
 }
 
+.no-padding-top-bottom.row, .no-padding-top-bottom div {
+    padding-top: 0;
+	padding-bottom: 0;
+}
+
 .big-padding-top {
     padding-top: 75px !important;
 }
