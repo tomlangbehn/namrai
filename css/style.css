@@ -149,6 +149,10 @@ figure {
 	border: 0 !important;
 }
 
+.box {
+    padding: 0 5px 0 5px;
+}
+
 /* --------- 1.1 Input Elements ---------- */
 
 input, textarea {
@@ -324,9 +328,6 @@ section {
     width: 38.2%;
 }
 
-.col-49 {
-    width: 49.5%;
-}
 /* --------- 2.1 Header --------- */
 
 #header {
