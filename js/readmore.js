@@ -1,15 +1,12 @@
-                                function myFunction() {
-                                    var dots = document.getElementById("dots");
-                                    var moreText = document.getElementById("more");
-                                    var btnText = document.getElementById("myBtn");
+function ShowHide(divId)
+{
+if(document.getElementById(divId).style.display == 'none')
+{
+document.getElementById(divId).style.display='block';
+}
+else
+{
+document.getElementById(divId).style.display = 'none';
+}
+}  
 
-                                    if (dots.style.display === "none") {
-                                        dots.style.display = "inline";
-                                        btnText.innerHTML = "Read more";
-                                        moreText.style.display = "none";
-                                    } else {
-                                        dots.style.display = "none";
-                                        btnText.innerHTML = "Read less";
-                                        moreText.style.display = "inline";
-                                    }
-                                }
