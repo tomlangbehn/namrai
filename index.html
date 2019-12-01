@@ -271,7 +271,7 @@
             <!--End of Introduction-->
 
             <!--Project Section-->
-            <div id="projects" class="scrollto clearfix">
+            <div id="projects" class="secondary-color scrollto clearfix">
                 <div class="row no-padding-top-bottom clearfix">
                     <!--row 1-->
                     <div class="col-2">
@@ -392,6 +392,23 @@
                         <a class="button" onclick="myFunction()" id="myBtn">Read more</a>
 
                         <!--Read more / read less -->
+                        <script>
+                            function myFunction() {
+                                var dots = document.getElementById("dots");
+                                var moreText = document.getElementById("more");
+                                var btnText = document.getElementById("myBtn");
+
+                                if (dots.style.display === "none") {
+                                    dots.style.display = "inline";
+                                    btnText.innerHTML = "Read more";
+                                    moreText.style.display = "none";
+                                } else {
+                                    dots.style.display = "none";
+                                    btnText.innerHTML = "Read less";
+                                    moreText.style.display = "inline";
+                                }
+                            }
+                        </script>
                     </div>
 
                 </div>
@@ -638,23 +655,6 @@
     <script src="js/images-loaded.min.js"></script>
     <script src="js/lightbox.min.js"></script>
     <script src="js/site.js"></script>
-	                        <script>
-                            function myFunction() {
-                                var dots = document.getElementById("dots");
-                                var moreText = document.getElementById("more");
-                                var btnText = document.getElementById("myBtn");
-
-                                if (dots.style.display === "none") {
-                                    dots.style.display = "inline";
-                                    btnText.innerHTML = "Read more";
-                                    moreText.style.display = "none";
-                                } else {
-                                    dots.style.display = "none";
-                                    btnText.innerHTML = "Read less";
-                                    moreText.style.display = "inline";
-                                }
-                            }
-                        </script>
 
 </body>
 
