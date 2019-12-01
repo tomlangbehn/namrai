@@ -216,11 +216,6 @@ section {
     padding-top: 0;
 }
 
-.no-padding-top-bottom.row, .no-padding-top-bottom div {
-    padding-top: 0;
-	padding-bottom: 0;
-}
-
 .big-padding-top {
     padding-top: 75px !important;
 }
@@ -238,13 +233,6 @@ section {
   padding: 10px;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  margin: 20px 0px 0px 10px
-}
 
 /* Targets all elements */
 
